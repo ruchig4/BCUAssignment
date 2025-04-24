@@ -4,11 +4,15 @@
 A .NET solution that utilizes RestSharp to interact with RESTful APIs. This project is intended for testing and demonstrating API integrations.
 
 # 📚 Features
-Full REST API testing coverage (GET, PUT)
-BDD-style SpecFlow scenarios
-Concurrent request validation
-Response time and data sorting checks
-JSON deserialization and validation
+- Full REST API testing coverage (GET, PUT)
+
+- BDD-style SpecFlow scenarios
+
+- Concurrent request validation
+
+- Response time and data sorting checks
+
+- JSON deserialization and validation
 
 ## 🚀 Getting Started
 
