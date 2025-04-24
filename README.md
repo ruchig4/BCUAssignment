@@ -38,23 +38,3 @@ Clone the repository and modified the local base URL(got after running full solu
 #🧪 Running Tests
 - Run tests via the Test Explorer in Visual Studio.
 
- Sample Usage
-✅ GET Request Scenario
-_client = new RestClient("https://api.example.com");
-_request = new RestRequest("courses", Method.Get);
-_response = _client.Execute(_request);
-
-// Validate response
-var courses = JsonConvert.DeserializeObject<RCourses>(_response.Content);
-Assert.IsTrue(courses.items.Count > 0);
-
-🔁 PUT Request Scenario
-_request = new RestRequest("courses/123", Method.Put);
-_request.AddQueryParameter("newName", "Updated Course Name");
-
-_response = _client.Execute(_request);
-
-var data = JsonConvert.DeserializeObject<CourseResponse>(_response.Content);
-Assert.AreEqual("Updated Course Name", data.name);
-
-
