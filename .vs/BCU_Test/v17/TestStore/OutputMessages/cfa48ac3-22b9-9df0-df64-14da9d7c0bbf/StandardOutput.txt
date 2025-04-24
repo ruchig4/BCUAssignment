@@ -1,0 +1,215 @@
+Given Set the API Url 'https://localhost:50748/'
+-> done: CoursesStepDefinition.GivenSetTheAPIUrl("https://localhost...") (0.0s)
+When I send a GET request to the API 'course/page/0'
+-> done: CoursesStepDefinition.WhenISendAGETRequestToTheAPI("course/page/0") (0.0s)
+And I send 100 concurrent requests to the API and wait for all to complete and  the response status code should be 200
+Thread number0
+Thread number0
+Thread number0
+Thread number0
+Thread number0
+Thread number0
+Thread number0
+Thread number0
+Thread number0
+Thread number0
+Thread Number = 0  and Status code is 200 
+Thread Number = 0  and Status code is 200 
+Thread number2
+Thread number2
+Thread number2
+Thread Number = 2  and Status code is 200 
+Thread number3
+Thread number3
+Thread Number = 3  and Status code is 200 
+Thread number4
+Thread Number = 3  and Status code is 200 
+Thread Number = 3  and Status code is 200 
+Thread number6
+Thread number6
+Thread Number = 6  and Status code is 200 
+Thread number7
+Thread Number = 7  and Status code is 200 
+Thread number8
+Thread Number = 8  and Status code is 200 
+Thread number9
+Thread Number = 9  and Status code is 200 
+Thread Number = 9  and Status code is 200 
+Thread number10
+Thread number11
+Thread Number = 11  and Status code is 200 
+Thread number12
+Thread Number = 12  and Status code is 200 
+Thread number13
+Thread Number = 13  and Status code is 200 
+Thread number14
+Thread Number = 14  and Status code is 200 
+Thread number15
+Thread Number = 15  and Status code is 200 
+Thread number16
+Thread number16
+Thread Number = 16  and Status code is 200 
+Thread number17
+Thread Number = 17  and Status code is 200 
+Thread Number = 17  and Status code is 200 
+Thread Number = 19  and Status code is 200 
+Thread number19
+Thread number20
+Thread number20
+Thread Number = 20  and Status code is 200 
+Thread Number = 20  and Status code is 200 
+Thread number22
+Thread number22
+Thread Number = 22  and Status code is 200 
+Thread number23
+Thread Number = 23  and Status code is 200 
+Thread number24
+Thread number24
+Thread Number = 24  and Status code is 200 
+Thread number25
+Thread Number = 25  and Status code is 200 
+Thread number26
+Thread Number = 26  and Status code is 200 
+Thread number27
+Thread Number = 27  and Status code is 200 
+Thread number28
+Thread Number = 28  and Status code is 200 
+Thread number29
+Thread Number = 29  and Status code is 200 
+Thread number30
+Thread number30
+Thread Number = 30  and Status code is 200 
+Thread number31
+Thread Number = 31  and Status code is 200 
+Thread number32
+Thread Number = 32  and Status code is 200 
+Thread Number = 33  and Status code is 200 
+Thread number34
+Thread number34
+Thread Number = 34  and Status code is 200 
+Thread number35
+Thread Number = 35  and Status code is 200 
+Thread number36
+Thread number36
+Thread Number = 36  and Status code is 200 
+Thread number37
+Thread number37
+Thread Number = 37  and Status code is 200 
+Thread number38
+Thread Number = 38  and Status code is 200 
+Thread number39
+Thread Number = 39  and Status code is 200 
+Thread number40
+Thread Number = 40  and Status code is 200 
+Thread number41
+Thread Number = 41  and Status code is 200 
+Thread number42
+Thread Number = 42  and Status code is 200 
+Thread Number = 42  and Status code is 200 
+Thread number44
+Thread Number = 44  and Status code is 200 
+Thread number45
+Thread Number = 45  and Status code is 200 
+Thread Number = 46  and Status code is 200 
+Thread number47
+Thread number43
+Thread number47
+Thread Number = 47  and Status code is 200 
+Thread number48
+Thread Number = 48  and Status code is 200 
+Thread number48
+Thread number49
+Thread Number = 49  and Status code is 200 
+Thread Number = 49  and Status code is 200 
+Thread Number = 49  and Status code is 200 
+Thread Number = 49  and Status code is 200 
+Thread number50
+Thread number52
+Thread number53
+Thread number53
+Thread Number = 53  and Status code is 200 
+Thread number54
+Thread Number = 54  and Status code is 200 
+Thread Number = 54  and Status code is 200 
+Thread Number = 54  and Status code is 200 
+Thread number56
+Thread number56
+Thread Number = 56  and Status code is 200 
+Thread Number = 57  and Status code is 200 
+Thread number59
+Thread number59
+Thread number59
+Thread number59
+Thread Number = 59  and Status code is 200 
+Thread number60
+Thread Number = 59  and Status code is 200 
+Thread Number = 61  and Status code is 200 
+Thread number62
+Thread number62
+Thread Number = 62  and Status code is 200 
+Thread number63
+Thread Number = 63  and Status code is 200 
+Thread number64
+Thread number64
+Thread Number = 64  and Status code is 200 
+Thread Number = 64  and Status code is 200 
+Thread number66
+Thread Number = 66  and Status code is 200 
+Thread Number = 67  and Status code is 200 
+Thread Number = 68  and Status code is 200 
+Thread Number = 68  and Status code is 200 
+Thread number70
+Thread Number = 70  and Status code is 200 
+Thread number71
+Thread Number = 71  and Status code is 200 
+Thread Number = 72  and Status code is 200 
+Thread number73
+Thread Number = 73  and Status code is 200 
+Thread number74
+Thread Number = 74  and Status code is 200 
+Thread Number = 74  and Status code is 200 
+Thread Number = 74  and Status code is 200 
+Thread number77
+Thread Number = 77  and Status code is 200 
+Thread number78
+Thread Number = 78  and Status code is 200 
+Thread Number = 79  and Status code is 200 
+Thread number80
+Thread Number = 80  and Status code is 200 
+Thread number81
+Thread Number = 81  and Status code is 200 
+Thread Number = 82  and Status code is 200 
+Thread Number = 82  and Status code is 200 
+Thread number84
+Thread Number = 84  and Status code is 200 
+Thread Number = 85  and Status code is 200 
+Thread number86
+Thread Number = 86  and Status code is 200 
+Thread Number = 87  and Status code is 200 
+Thread number88
+Thread Number = 88  and Status code is 200 
+Thread Number = 89  and Status code is 200 
+Thread Number = 90  and Status code is 200 
+Thread Number = 91  and Status code is 200 
+Thread Number = 91  and Status code is 200 
+Thread Number = 91  and Status code is 200 
+Thread number93
+Thread number94
+Thread Number = 94  and Status code is 200 
+Thread number95
+Thread Number = 95  and Status code is 200 
+Thread Number = 96  and Status code is 200 
+Thread number97
+Thread Number = 97  and Status code is 200 
+Thread Number = 98  and Status code is 200 
+Thread Number = 99  and Status code is 200 
+-> done: CoursesStepDefinition.WhenISendConcurrentRequestsToTheAPIAndWaitForAllToCompleteAndTheResponseStatusCodeShouldBe(100, 200) (9.1s)
+
+
+TestContext Messages:
+Given Set the API Url 'https://localhost:50748/'
+-> done: CoursesStepDefinition.GivenSetTheAPIUrl("https://localhost...") (0.0s)
+When I send a GET request to the API 'course/page/0'
+-> done: CoursesStepDefinition.WhenISendAGETRequestToTheAPI("course/page/0") (0.0s)
+And I send 100 concurrent requests to the API and wait for all to complete and  the response status code should be 200
+-> done: CoursesStepDefinition.WhenISendConcurrentRequestsToTheAPIAndWaitForAllToCompleteAndTheResponseStatusCodeShouldBe(100, 200) (9.1s)

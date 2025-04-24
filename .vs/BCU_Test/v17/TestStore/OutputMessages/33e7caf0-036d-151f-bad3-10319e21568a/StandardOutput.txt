@@ -1,0 +1,22 @@
+Given Set the API Url 'https://localhost:50748/'
+-> done: CoursesStepDefinition.GivenSetTheAPIUrl("https://localhost...") (0.0s)
+When I send a GET request to the API 'course/page/0'
+-> done: CoursesStepDefinition.WhenISendAGETRequestToTheAPI("course/page/0") (0.0s)
+Then the response status code should be 200
+Response Body:
+{"totalItems":50,"items":[{"id":1,"name":"AI Test","description":"Non magnam doloribus quo sed fugit consequuntur veniam. Omnis ex eveniet aut voluptatem sed numquam beatae. Modi explicabo ea qui ut. Nostrum natus ea.","code":"4853226072131","startDate":"2026-02-14T08:12:13.1590042","endDate":"2026-04-01T08:12:13.1590042"},{"id":2,"name":"Rustic Rubber Towels","description":"Ipsa animi omnis nulla doloribus commodi. Aut est vel quae mollitia voluptates harum. Aliquam a aspernatur totam iusto eius sequi amet. Et consequuntur doloremque rerum et eius alias nesciunt aperiam numquam.","code":"3487348848315","startDate":"2026-03-15T16:12:53.4447727","endDate":"2026-05-03T16:12:53.4447727"},{"id":3,"name":"Sleek Granite Cheese","description":"Ut earum aut enim aut id voluptatem ut similique. Incidunt sit assumenda omnis praesentium quia ipsam. Rerum quasi eaque sed perspiciatis sit nihil sit beatae quia.","code":"0236934296626","startDate":"2025-06-07T09:16:26.1804137","endDate":"2025-08-08T09:16:26.1804137"},{"id":4,"name":"Rustic Granite Salad","description":"Officiis sequi error incidunt ut dolores sed eos. Consequuntur optio sit. Aut sit qui ipsam non rerum. Numquam iste nihil consequatur veniam totam quibusdam quia nostrum. Ea laudantium vel id nisi non consequatur laborum. Laborum sapiente sit sint alias ut est velit suscipit deserunt.","code":"8941130048840","startDate":"2025-05-02T16:37:25.0851891","endDate":"2025-07-05T16:37:25.0851891"},{"id":5,"name":"Small Granite Salad","description":"Incidunt quis quibusdam sit ex reprehenderit. Est assumenda nam quos earum quas optio incidunt corporis. Temporibus consequatur quidem eaque error non.","code":"1714538529733","startDate":"2025-05-31T11:46:54.3709001","endDate":"2025-08-27T11:46:54.3709001"},{"id":6,"name":"Incredible Rubber Keyboard","description":"Quia sint est necessitatibus. Perferendis reprehenderit ut amet excepturi aut voluptatibus veniam ullam est. Blanditiis hic nostrum at minima harum facilis voluptatem blanditiis. Et placeat et omnis culpa neque enim quae atque.","code":"1913273434702","startDate":"2025-06-02T06:40:37.8474029","endDate":"2025-08-06T06:40:37.8474029"},{"id":7,"name":"Gorgeous Steel Bike","description":"Ut culpa deleniti ipsum aut dignissimos labore voluptas. Atque deserunt excepturi magnam et velit eos rerum. Voluptatem quibusdam impedit ut eum laborum. Et voluptatem fuga nobis amet voluptatem soluta.","code":"7944777168736","startDate":"2025-07-01T20:23:33.2132659","endDate":"2025-09-22T20:23:33.2132659"},{"id":8,"name":"Ergonomic Rubber Cheese","description":"Cumque sit error est ad facilis. Perspiciatis quibusdam tempora cumque. Perspiciatis ex aperiam consectetur.","code":"4566976331310","startDate":"2025-12-12T21:48:29.8969836","endDate":"2026-02-24T21:48:29.8969836"},{"id":9,"name":"Incredible Cotton Shirt","description":"Fuga consequatur accusamus modi possimus. Nam animi qui quia quo aliquid. Placeat dolore maiores. Alias cumque veniam aspernatur.","code":"4954093728494","startDate":"2025-05-15T20:18:10.7404434","endDate":"2025-08-01T20:18:10.7404434"}]}
+-> done: CoursesStepDefinition.ThenTheResponseStatusCodeShouldBe(200) (0.0s)
+And Verify the data is returned in Sorted manner
+-> done: CoursesStepDefinition.ThenVerifyTheDataIsReturnedInSortedManner() (0.0s)
+-> LivingDocPlugin: Output generated in: C:\Users\vikas\Downloads\BCU_Test\BCU_Test\bin\Debug\net6.0\TestExecution.json
+
+
+TestContext Messages:
+Given Set the API Url 'https://localhost:50748/'
+-> done: CoursesStepDefinition.GivenSetTheAPIUrl("https://localhost...") (0.0s)
+When I send a GET request to the API 'course/page/0'
+-> done: CoursesStepDefinition.WhenISendAGETRequestToTheAPI("course/page/0") (0.0s)
+Then the response status code should be 200
+-> done: CoursesStepDefinition.ThenTheResponseStatusCodeShouldBe(200) (0.0s)
+And Verify the data is returned in Sorted manner
+-> done: CoursesStepDefinition.ThenVerifyTheDataIsReturnedInSortedManner() (0.0s)

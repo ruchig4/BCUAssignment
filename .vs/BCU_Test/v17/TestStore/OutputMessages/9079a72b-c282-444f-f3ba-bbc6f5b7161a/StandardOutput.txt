@@ -1,0 +1,25 @@
+-> Loading plugin C:\Users\vikas\Downloads\BCU_Test\BCU_Test\bin\Debug\net6.0\LivingDoc.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\vikas\Downloads\BCU_Test\BCU_Test\bin\Debug\net6.0\TechTalk.SpecFlow.MSTest.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\vikas\Downloads\BCU_Test\BCU_Test\bin\Debug\net6.0\BCU_Test.dll
+-> Using default config
+Given Set the API Url 'https://localhost:50748/'
+-> done: CoursesStepDefinition.GivenSetTheAPIUrl("https://localhost...") (0.0s)
+When I send a GET request to the API 'course/page/1'
+-> done: CoursesStepDefinition.WhenISendAGETRequestToTheAPI("course/page/1") (0.0s)
+Then the response status code should be 200
+Response Body:
+{"totalItems":50,"items":[{"id":11,"name":"Practical Fresh Mouse","description":"Officia explicabo corrupti. Dolorum qui sunt. Odio dolores atque doloremque et modi qui sed.","code":"6092639283712","startDate":"2025-06-14T00:59:17.4067336","endDate":"2025-08-02T00:59:17.4067336"},{"id":12,"name":"Licensed Concrete Ball","description":"Laborum accusamus et rem nisi voluptatum ullam vitae atque. Labore dolores nihil at. Saepe officiis magnam.","code":"7592337545062","startDate":"2025-07-11T14:51:06.0345437","endDate":"2025-08-18T14:51:06.0345437"},{"id":13,"name":"Unbranded Granite Mouse","description":"Et vero quo possimus. Repellat possimus ea. Libero sint et. Vero accusamus reiciendis fuga itaque qui veniam quia similique consequatur.","code":"6125911552531","startDate":"2026-03-01T02:44:10.0237683","endDate":"2026-05-01T02:44:10.0237683"},{"id":14,"name":"Unbranded Concrete Tuna","description":"Vel assumenda neque magnam ab vitae quia. Ut autem qui aliquam et aut consequatur molestiae fugit dolorem. Et quis sed possimus error amet. Id similique consequatur cupiditate iusto.","code":"3643972549701","startDate":"2025-06-25T04:59:13.0023925","endDate":"2025-08-11T04:59:13.0023925"},{"id":15,"name":"Licensed Wooden Bacon","description":"Est aut quis ut omnis eum fuga voluptas provident. Quod blanditiis quo ullam qui autem est. Laudantium nulla consequuntur odit et ut sit ab aut nam. Quia consequatur porro nisi exercitationem corrupti et dolorem numquam. Neque sed adipisci vitae.","code":"0328459579008","startDate":"2025-12-28T00:37:14.6611541","endDate":"2026-03-08T00:37:14.6611541"},{"id":16,"name":"Licensed Soft Hat","description":"Et omnis libero aut rerum ratione. Neque sed possimus deserunt rerum et est commodi et. Quis maiores debitis magni quaerat sit. Aut iure blanditiis sit non voluptates. Provident sed vel cupiditate recusandae. Deleniti mollitia libero rerum eos possimus sit amet tempore ex.","code":"3292433043809","startDate":"2025-12-04T14:07:37.9411974","endDate":"2026-02-06T14:07:37.9411974"},{"id":17,"name":"Awesome Fresh Gloves","description":"Et repudiandae ad dolor dignissimos excepturi quisquam dolores aspernatur. Mollitia aliquid nostrum quo illo non. Sapiente eos cumque eius consequatur explicabo.","code":"5889010479472","startDate":"2025-08-26T21:47:06.7406015","endDate":"2025-11-01T21:47:06.7406015"},{"id":18,"name":"Handmade Rubber Shirt","description":"Aliquid est ipsam eligendi. Facilis consectetur et asperiores natus voluptatem qui perferendis. Itaque vel minus. Impedit pariatur voluptatem ab quia unde error. A voluptatem sed nihil non qui. Id placeat nihil doloribus corporis aut ea qui.","code":"8869419043853","startDate":"2025-08-06T08:41:13.6277761","endDate":"2025-09-25T08:41:13.6277761"},{"id":19,"name":"Fantastic Plastic Table","description":"Eos dolor voluptate veritatis pariatur repudiandae voluptatem. Consequatur quia illum rem similique. Est cumque est quia omnis.","code":"6142379575407","startDate":"2025-08-09T09:28:28.6680462","endDate":"2025-10-28T09:28:28.6680462"}]}
+-> done: CoursesStepDefinition.ThenTheResponseStatusCodeShouldBe(200) (0.1s)
+Then Validate response should have number of Item and array of Object
+-> done: CoursesStepDefinition.ThenValidateResponseShouldHaveNumberOfItemAndArrayOfCoursesObject() (0.0s)
+
+
+TestContext Messages:
+Given Set the API Url 'https://localhost:50748/'
+-> done: CoursesStepDefinition.GivenSetTheAPIUrl("https://localhost...") (0.0s)
+When I send a GET request to the API 'course/page/1'
+-> done: CoursesStepDefinition.WhenISendAGETRequestToTheAPI("course/page/1") (0.0s)
+Then the response status code should be 200
+-> done: CoursesStepDefinition.ThenTheResponseStatusCodeShouldBe(200) (0.1s)
+Then Validate response should have number of Item and array of Object
+-> done: CoursesStepDefinition.ThenValidateResponseShouldHaveNumberOfItemAndArrayOfCoursesObject() (0.0s)
